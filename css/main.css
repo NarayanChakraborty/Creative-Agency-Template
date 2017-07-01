@@ -69,7 +69,6 @@ color: #fff;
 transition: 0.5s;
 text-decoration: none;
 font-size: 18px;
-position: relative;
     
 
 }
@@ -123,5 +122,30 @@ position: relative;
 	border-radius: 50px;
 }
 
+/* ==========================2:Header CSS Section Ends=================================*/
+/* ==========================2:Who We Are CSS Section Starts=================================*/
+.who-we-are-left h1{
+    text-transform: uppercase;
+    color:#000;
+    margin-top: 10%;
+}
+.who-we-are-left p {
+	color: #000;
+	margin: 5% 0 8% 0;
+}
+.who-we-are-left a{
+    	font-size: 15px;
+	padding: 2% 6%;
+	/* margin-top: 16%; */
+	line-height: 20px;
+	color: #fff;
+	text-align: left;
+	border: 1px solid #00aeed;
+	background-color: #00aeed;
+	border-radius: 50px;
+}
+.who-we-are-right img {
+	margin: 10% 0 5% 0;
+}
 
 
