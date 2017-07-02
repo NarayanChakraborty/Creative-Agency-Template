@@ -576,6 +576,64 @@ font-size: 18px;
     color:#fff;
 }
 /* ==========================2:Service CSS Section Ends=================================*/
+/* ==========================2:What we Do CSS Section Starts=================================*/
+.what-we-do-item i {
+	margin: 40% 0 0 30%;
+	line-height: 40px;
+	font-size: 55px;
+}
+/* ==========================2:What we Do CSS Section Ends=================================*/
+/* ==========================2:Latest News CSS Section Ends=================================*/
+#latest-news-section{
+        padding:5% 0 ;
+}
+.latest-news-item h2{
+    font-size: 20px;
+	line-height: 25px;
+    color:#000;}
+.latest-news-item p {
+	margin-bottom: 5%;
+}
+.latest-news-item a{
+    
+    	font-size: 15px;
+	padding: 2% 6%;
+	/* margin-top: 16%; */
+	line-height: 20px;
+	color: #fff;
+	text-align: left;
+	border: 1px solid #00aeed;
+	background-color: #00aeed;
+	border-radius: 50px;
+}
+
+/* ==========================2:Latest News CSS Section Ends=================================*/
+/* ==========================2:Social Media CSS Section Starts=================================*/
+#social-media-section{
+    background-image:url('../img/social-icon-section-background.jpg');
+}
+#social-media-section .social-items {
+	margin: 15% 5%;
+}
+#social-media-section .social-items .social-icon {
+	border-radius: 65px;
+	border: 1px solid #fff;
+	width: 65px;
+	height: 65px;
+	margin: 0 auto;
+}
+#social-media-section .social-items .social-icon i {
+	margin: 0 auto;
+	padding: 0% 30%;
+	line-height: 65px;
+	font-size: 28px;
+	color: #fff;
+}
+#social-media-section .social-items ul li {
+	display: inline-block;
+    padding:0  2%;
+}
+/* ==========================2:Social Media CSS Section Ends=================================*/
 
 
 
