@@ -76,6 +76,8 @@ font-size: 18px;
 #header-id .icon ul li a{
     color:#fff;
     font-size:20px;
+    text-decoration: none;
+
 }
 #header-id .menu ul li a:hover,#header-id .icon ul li a:hover {
     background-color: unset;
@@ -94,6 +96,9 @@ font-size: 18px;
 }
 #header-id .menu ul li a:hover:after{
     opacity:1;
+}
+.sr-only i{
+    color:#fff;
 }
 .left h1 {
 	font-size: 60px;
@@ -120,6 +125,8 @@ font-size: 18px;
 	border: 1px solid #00aeed;
 	background-color: #00aeed;
 	border-radius: 50px;
+    text-decoration: none;
+
 }
 
 /* ==========================2:Header CSS Section Ends=================================*/
@@ -143,6 +150,7 @@ font-size: 18px;
 	border: 1px solid #00aeed;
 	background-color: #00aeed;
 	border-radius: 50px;
+    text-decoration: none;
 }
 .who-we-are-right img {
 	margin: 10% 0 5% 0;
@@ -165,25 +173,7 @@ font-size: 18px;
   padding: 20px 40px 0 0;
   z-index: 1;
 }
-.cd-testimonials-wrapper::after {
-  /* quotation mark */
-  content: '\201C';
-  position: absolute;
-  top: 10px;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  padding-top: 8px;
-  margin-left: -25px;
-  background: rgba(32, 32, 34, 0.9);
-  font-family: "Georgia", serif;
-  color: #ffffff;
-  font-size: 70px;
-  font-size: 4.375rem;
-  text-align: center;
-  /* visible on big devices only */
-  display: none;
-}
+
 
   .cd-testimonials-wrapper {
     margin: 0 auto;
@@ -232,7 +222,7 @@ font-size: 18px;
 	font-size: 26px;
 	font-size: 1.625rem;
 	line-height: 1.6;
-	width: 65%;
+	width: 70%;
 	float: left;
 }
 
@@ -301,6 +291,8 @@ font-size: 18px;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
+    text-decoration: none;
+
 }
 .no-touch .flex-direction-nav li a:hover {
   background-color: transparent;
@@ -531,7 +523,7 @@ font-size: 18px;
     float:left;
 }
 .client-quote-right{
-    float: left;
+    float: right;
 }
 
 
@@ -634,6 +626,64 @@ font-size: 18px;
     padding:0  2%;
 }
 /* ==========================2:Social Media CSS Section Ends=================================*/
+/* ==========================2:Contact CSS Section Starts=================================*/
+#contact-section{
+  padding:2% 0;
+}
+.contact-left,.contact-right{
+   
+}
+.contact-left h1 {
+	font-size: 25px;
+	margin-left: 4%;
+	line-height: 25px;
+}
+.contact-left-item{
+    margin:4% 0;
+}
+.contact-left-item i {
+	margin: 35% 0 0 auto;
+	line-height: 55px;
+	font-size: 55px;
+}
+.contact-left-item h2 {
+	font-size: 20px;
+	line-height: 20px;
+}
+.contact-left-item p{
+    font-size:  ;
+        line-height:  ;
+}
+.contact-right h1{
+font-size: 25px;
+ margin-bottom: 5%;
+	line-height: 25px;
+}
+.submit a {
+	font-size: 15px;
+	padding: 5% 10%;
+	/* margin-top: 16%; */
+	line-height: 20px;
+	color: #fff;
+	text-align: left;
+	border: 1px solid #00aeed;
+	background-color: #00aeed;
+	border-radius: 50px;
+	margin-left: 20%;
+    text-decoration: none;
+}
+/* ==========================2:Contact CSS Section Ends=================================*/
+/* ==========================2:Footer CSS Section Starts=================================*/
+#footer-id{
+    background-color:#062736;
+    padding:3% 0;
+    color:#fff;
+}
+.copyright p{
+    font-size:18px;
+    line-height: 18px;
+}
+/* ==========================2:Footer CSS Section Ends=================================*/
 
 
 

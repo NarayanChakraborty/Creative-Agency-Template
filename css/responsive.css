@@ -1,0 +1,104 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.left h1 {
+	font-size: 30px;
+	vertical-align: 0;
+	margin: 30% 0 0 0;
+}
+    .slider-content img{
+        height: 180px;
+width: 120px;
+margin: 0 auto;
+
+    }
+    .right{
+        padding-bottom: 50%;
+    }
+    .right p {
+	font-size: 15px;
+	/* padding: 2%; */
+	margin: 10% 0% 10% 0;
+	line-height: 20px;
+	
+}
+ .cd-testimonials p {
+	font-size: 16px;
+	/* font-size: 1.625rem; */
+	line-height: 20px;
+	width: 100%;
+	margin: 2% auto;
+}
+    .client-quote-right,.client-quote-left{
+        width:15%;
+    }
+    
+    .cd-author .cd-author-info {
+
+	margin: 15% 5%;
+}
+    .cd-testimonials-wrapper {
+	padding: 20px 50px 30px 50px;
+}
+.cd-testimonials-all .cd-testimonials-item {
+	width: 100%;
+	margin: 0 0.667% 1em;
+}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+	
+}
