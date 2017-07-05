@@ -42,45 +42,84 @@ px      68    160    252    */
 	vertical-align: 0;
 	margin: 30% 0 0 0;
 }
-    .slider-content img{
-        height: 180px;
-width: 120px;
-margin: 0 auto;
+            .slider-content img{
+                height: 180px;
+        width: 120px;
+        margin: 0 auto;
 
-    }
-    .right{
-        padding-bottom: 50%;
-    }
-    .right p {
-	font-size: 15px;
-	/* padding: 2%; */
-	margin: 10% 0% 10% 0;
-	line-height: 20px;
-	
-}
- .cd-testimonials p {
+            }
+            .right{
+                padding-bottom: 50%;
+            }
+            .right p {
+            font-size: 15px;
+            /* padding: 2%; */
+            margin: 10% 0% 10% 0;
+            line-height: 20px;
+
+        }
+        .cd-testimonials p {
 	font-size: 16px;
 	/* font-size: 1.625rem; */
 	line-height: 20px;
 	width: 100%;
 	margin: 2% auto;
+	text-align: justify;
 }
-    .client-quote-right,.client-quote-left{
-        width:15%;
-    }
-    
-    .cd-author .cd-author-info {
+            .client-quote-right,.client-quote-left{
+                width:15%;
+            }
 
-	margin: 15% 5%;
+            .cd-author .cd-author-info {
+
+            margin: 15% 5%;
+        }
+            .cd-testimonials-wrapper {
+            padding: 20px 50px 30px 50px;
+        }
+        .cd-testimonials-all .cd-testimonials-item {
+            width: 100%;
+            margin: 0 0.667% 1em;
+        }
+            .service-header-section p {
+            color: #fff;
+            padding: 2% 5%;
+            text-align: justify;
+        }
+            .service-item p {
+            color: #fff;
+            text-align: justify;
+            padding-top: 2%;
+        }
+
+            .what-we-do-item i {
+            margin: 10% auto 0%;
+            line-height: 40px;
+            font-size: 70px;
+        }
+ .flex-direction-nav li {
+	position: absolute;
+	height: 100%;
+	width: 25px;
+	top: 0;
+	/* font-size: 57px; */
 }
-    .cd-testimonials-wrapper {
-	padding: 20px 50px 30px 50px;
+    #social-media-section .social-items .social-icon {
+	 border-radius: 0px; 
+	 border: none; 
+	width: 23px;
+	height: 41px;
+	margin: 0 auto;
 }
-.cd-testimonials-all .cd-testimonials-item {
-	width: 100%;
-	margin: 0 0.667% 1em;
+    #social-media-section .social-items .social-icon i {
+	margin: 0 auto;
+	padding: 0% 30%;
+	line-height: 40px;
+	font-size: 25px;
+	color: #fff;
 }
-	
+    
+    
 }
 
 

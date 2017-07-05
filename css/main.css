@@ -39,6 +39,9 @@ ul{
 ul li{
     list-style:none;
 }
+h1{
+    text-transform: uppercase;
+}
 p{
     font-family: ;
     
@@ -346,6 +349,7 @@ font-size: 18px;
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
     transition: background-color 0.2s;
+      text-decoration: none;
   }
   .flex-direction-nav li a:hover::before, .flex-direction-nav li a:hover::after {
     background-color: #ffffff;
@@ -353,23 +357,22 @@ font-size: 18px;
 }
 
 .cd-see-all {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  background-color: #252527;
-  text-align: center;
-  text-transform: uppercase;
-  color: #6b6b70;
-  font-weight: 700;
-  font-size: 12px;
-  font-size: 0.75rem;
-  -webkit-transition: color, 0.2s;
-  -moz-transition: color, 0.2s;
-  transition: color, 0.2s;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #252527;
+	text-align: center;
+	text-transform: uppercase;
+	color: #7c7c93;
+	font-weight: 700;
+	font-size: 12px;
+	font-size: 15px;
+	transition: color, 0.2s;
+	text-decoration: none;
 }
 .no-touch .cd-see-all:hover {
   color: #79b6e4;
@@ -569,6 +572,10 @@ font-size: 18px;
 }
 /* ==========================2:Service CSS Section Ends=================================*/
 /* ==========================2:What we Do CSS Section Starts=================================*/
+.what-we-do-right h1 {
+	line-height: 30px;
+	font-size: 30px;
+}
 .what-we-do-item i {
 	margin: 40% 0 0 30%;
 	line-height: 40px;
@@ -633,7 +640,7 @@ font-size: 18px;
 .contact-left,.contact-right{
    
 }
-.contact-left h1 {
+.contact-left h2 {
 	font-size: 25px;
 	margin-left: 4%;
 	line-height: 25px;
@@ -646,7 +653,7 @@ font-size: 18px;
 	line-height: 55px;
 	font-size: 55px;
 }
-.contact-left-item h2 {
+.contact-left-item h3 {
 	font-size: 20px;
 	line-height: 20px;
 }
@@ -654,14 +661,14 @@ font-size: 18px;
     font-size:  ;
         line-height:  ;
 }
-.contact-right h1{
+.contact-right h2{
 font-size: 25px;
  margin-bottom: 5%;
 	line-height: 25px;
 }
 .submit a {
 	font-size: 15px;
-	padding: 5% 10%;
+	padding: 5% 12%;
 	/* margin-top: 16%; */
 	line-height: 20px;
 	color: #fff;
@@ -676,7 +683,7 @@ font-size: 25px;
 /* ==========================2:Footer CSS Section Starts=================================*/
 #footer-id{
     background-color:#062736;
-    padding:3% 0;
+    padding:3% 0 1% 0;
     color:#fff;
 }
 .copyright p{
