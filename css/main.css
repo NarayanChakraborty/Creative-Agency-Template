@@ -39,14 +39,29 @@ ul{
 ul li{
     list-style:none;
 }
-h1{
+h1,h2{
     text-transform: uppercase;
+    font-family: lato-black;
 }
 p{
-    font-family: ;
-    
+    font-family: latto-regular;
+    font-size: 16px;
 }
-
+@font-face {
+    font-family: lato-black;
+    src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: school-bell;
+    src: url(../fonts/Schoolbell.ttf);
+}@font-face {
+    font-family: latto-regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: latto-bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
 
 
 /* ==========================Basic CSS Section End=================================*/
@@ -72,7 +87,7 @@ color: #fff;
 transition: 0.5s;
 text-decoration: none;
 font-size: 18px;
-    
+    font-family: latto-bold;
 
 }
 
@@ -108,15 +123,16 @@ font-size: 18px;
 	vertical-align: 25px;
 	line-height: auto;
 	color: #fff;
-	margin: 20%;
+	margin: 25% 10% 0 0;
+    font-family: lato-black;
 }
 .right p {
-	font-size: 15px;
+	font-size: 16px;
 	/* padding: 2%; */
-	margin: 27% 20% 10% 0;
+	margin: 27% 18% 10% 0;
 	line-height: 20px;
 	color: #fff;
-	text-align: left;
+	text-align: justify;
 }
 .right a {
 	font-size: 15px;
@@ -359,23 +375,30 @@ font-size: 18px;
 .cd-see-all {
 	position: absolute;
 	z-index: 1;
-	left: 0;
+	left: 46%;
 	bottom: 0;
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	background-color: #252527;
+	/* width: 100%; */
+	height: 40px;
+	line-height: 40px;
+	/* background-color: #252527; */
 	text-align: center;
 	text-transform: uppercase;
-	color: #7c7c93;
-	font-weight: 700;
-	font-size: 12px;
-	font-size: 15px;
+	color: #f3f3f9;
+	font-weight: 500;
+	/* font-size: 12px; */
+	font-size: 18px;
 	transition: color, 0.2s;
 	text-decoration: none;
+	display: inline-block;
+	border: 1px solid;
+	border-radius: 50px;
+	padding: 1px 10px;
+	margin-bottom: 2%;
 }
 .no-touch .cd-see-all:hover {
-  color: #79b6e4;
+	color: #c6d7e4;
+	text-decoration: none;
+	background-color: #217e7a;
 }
 
 .cd-testimonials-all {
@@ -562,9 +585,9 @@ font-size: 18px;
     color:#fff;
 }
 .service-item h2 {
-	font-size: 20px;
-	line-height: 25px;
-    color:#fff;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
 	/* vertical-align: 25px; */
 }
 .service-item p{
@@ -572,9 +595,39 @@ font-size: 18px;
 }
 /* ==========================2:Service CSS Section Ends=================================*/
 /* ==========================2:What we Do CSS Section Starts=================================*/
+.what-we-do-left img{
+    position: relative;
+}
+.what-we-do-left .content{
+    position: absolute;
+display: inline-block;
+top: 0;
+margin: 20% 20%;
+color: #fff;
+
+}
+.what-we-do-left .content h2 {
+	font-family: school-bell;
+	font-size: 70px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.what-we-do-left .content h4 {
+	font-family: school-bell;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
 .what-we-do-right h1 {
 	line-height: 30px;
 	font-size: 30px;
+}
+.what-we-do-item h3 {
+	/* margin: 40% 0 0 30%; */
+	line-height: 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 .what-we-do-item i {
 	margin: 40% 0 0 30%;
@@ -586,16 +639,19 @@ font-size: 18px;
 #latest-news-section{
         padding:5% 0 ;
 }
+.latest-news-header h1{
+    margin-bottom:4%;
+}
 .latest-news-item h2{
     font-size: 20px;
 	line-height: 25px;
     color:#000;}
 .latest-news-item p {
 	margin-bottom: 5%;
-}
-.latest-news-item a{
     
-    	font-size: 15px;
+}
+.latest-news-item a {
+	font-size: 15px;
 	padding: 2% 6%;
 	/* margin-top: 16%; */
 	line-height: 20px;
@@ -604,6 +660,7 @@ font-size: 18px;
 	border: 1px solid #00aeed;
 	background-color: #00aeed;
 	border-radius: 50px;
+	text-decoration: none;
 }
 
 /* ==========================2:Latest News CSS Section Ends=================================*/
@@ -637,6 +694,9 @@ font-size: 18px;
 #contact-section{
   padding:2% 0;
 }
+.contact-section-header h1{
+    margin-bottom: 3%;
+}
 .contact-left,.contact-right{
    
 }
@@ -658,8 +718,8 @@ font-size: 18px;
 	line-height: 20px;
 }
 .contact-left-item p{
-    font-size:  ;
-        line-height:  ;
+    font-size: 12px ;
+        line-height: 15px ;
 }
 .contact-right h2{
 font-size: 25px;
